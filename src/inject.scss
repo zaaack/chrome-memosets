@@ -1,0 +1,51 @@
+#word-paraphrase{
+  width: fit-content;
+  max-width: 350px;
+  font-family: "sans-serif";
+  font-size: 14px;
+  border-radius: 8px/6px;
+  border: 1px solid #ccc;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px #ccc;
+
+
+  .wp-pointer{
+    display: block;
+    margin: 0 auto;
+    margin-top: -32px;
+    background-color: white;
+  }
+  .wp-word{
+    margin: 0 0 10px 0;
+  }
+  .wp-word h3{
+    margin: 0;
+    display: inline;
+  }
+
+  .wp-net-tran{
+    font-size: 8px;
+    margin: 15px 0 7px 0;
+  }
+  .wp-net-tran hr{
+    margin: 0;
+    border-bottom: 0px;
+    border-top: 1px solid #ccc;
+  }
+
+  .wp-btn-group{
+    margin: px 0;
+    text-align: right;
+  }
+  .wp-btn{
+    padding: 5px 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px/4px;
+  }
+  .wp-btn:hover{
+    background-color: #f3f3f3;
+  }
+
+}

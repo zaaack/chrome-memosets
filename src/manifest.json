@@ -1,0 +1,25 @@
+{
+	"name": "MemoSets",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"permissions": [
+	"notifications",
+	"tabs",
+	"*://*/*"
+	],
+	"description": "a chrome extension for reminder review and translate english words in web page.",
+	"icons": {
+		"16": "img/icon-weibo.png",
+		"32": "img/icon-weibo.png",
+		"48": "img/icon-weibo.png",
+		"128": "img/icon-weibo.png"
+	},
+	"background": {
+		"page": "bg.html"
+	},
+	"browser_action": {
+		"default_icon": "img/icon-weibo.png",
+		"default_title": "MemoSets",
+		"default_popup": "index.html"
+	}
+}
