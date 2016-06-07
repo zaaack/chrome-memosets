@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #word-paraphrase{
   width: fit-content;
   max-width: 350px;
@@ -7,8 +8,6 @@
   border: 1px solid #ccc;
   padding: 10px 10px 10px 10px;
   box-shadow: 2px 2px 2px #ccc;
-
-
   .wp-pointer{
     display: block;
     margin: 0 auto;
@@ -32,7 +31,6 @@
     border-bottom: 0px;
     border-top: 1px solid #ccc;
   }
-
   .wp-btn-group{
     margin: px 0;
     text-align: right;
@@ -47,5 +45,4 @@
   .wp-btn:hover{
     background-color: #f3f3f3;
   }
-
 }
